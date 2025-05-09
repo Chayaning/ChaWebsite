@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontak Saya</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #ffe6f0, #ffffff);
+      color: #333;
+    }
+
+    header {
+      background-color: #ffb6c1;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .profile img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 10px;
+      object-fit: cover;
+    }
+
+    .profile h1 {
+      margin: 10px 0 5px;
+      font-size: 26px;
+    }
+
+    .profile p {
+      font-size: 14px;
+      margin: 0;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    main h2 {
+      color: #cc3366;
+    }
+
+    .kontak-section {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #fff0f5;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: left;
+    }
+
+    .kontak-section h3 {
+      color: #cc3366;
+    }
+
+    .form-input {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      font-size: 16px;
+    }
+
+    .form-textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      font-size: 16px;
+      height: 150px;
+    }
+
+    .submit-btn {
+      background-color: #cc3366;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .submit-btn:hover {
+      background-color: #e6007a;
+    }
+
+    footer {
+      background-color: #fce4ec;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="profile">
+      <img src="saya.jpg" alt="Foto Profil Cewek" />
+      
+    </div>
+    <nav>
+      <ul>
+        <li><a href="beranda.html">Beranda</a></li>
+        <li><a href="tentang.html">Tentang</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Kontak Saya</h2>
+    
+    <section class="kontak-section">
+      <h3>Hubungi Saya</h3>
+      <p>Jika Anda memiliki pertanyaan atau ingin berkolaborasi, silakan kirim pesan melalui formulir di bawah ini.</p>
+
+      <form action="#" method="POST">
+        <label for="nama">Nama</label>
+        <input class="form-input" type="text" id="nama" name="nama" placeholder="Masukkan Nama Anda" required />
+
+        <label for="email">Email</label>
+        <input class="form-input" type="email" id="email" name="email" placeholder="Masukkan Email Anda" required />
+
+        <label for="pesan">Pesan</label>
+        <textarea class="form-textarea" id="pesan" name="pesan" placeholder="Tulis Pesan Anda" required></textarea>
+
+        <button type="submit" class="submit-btn">Kirim Pesan</button>
+      </form>
+
+      <h3>Informasi Kontak Lain</h3>
+      <p>Anda juga bisa menghubungi saya melalui email atau mengikuti saya di media sosial:</p>
+      <ul>
+        <li>Email: <a href="mailto:email.com">email.com</a></li>
+        <li>Instagram: <a href="https://www.instagram.com/username" target="_blank">Instagram Saya</a></li>
+        <li>LinkedIn: <a href="https://www.Whatssap.com/in/username" target="_blank">Whatssap Saya</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Nama Saya. Semua hak dilindungi.</p>
+  </footer>
+</body>
+</html>

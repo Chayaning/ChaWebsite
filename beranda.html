@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Halaman Beranda</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #ffe6f0, #ffffff);
+      color: #333;
+    }
+
+    header {
+      background-color: #ffb6c1;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .profile img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 10px;
+      object-fit: cover;
+    }
+
+    .profile h1 {
+      margin: 10px 0 5px;
+      font-size: 26px;
+    }
+
+    .profile p {
+      font-size: 14px;
+      margin: 0;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    main h2 {
+      color: #cc3366;
+    }
+
+    .lumpia-gallery {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      max-width: 1000px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    .lumpia-item {
+      background-color: #fff0f5;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .lumpia-item img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .lumpia-item p {
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    footer {
+      background-color: #fce4ec;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="profile">
+      <img src="saya.jpg" alt="Foto Profil Cewek" />
+      <h1>Chayaning Kelwalaga</h1>
+      <h1>231110022</h1>
+      <p></p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="beranda.html">Beranda</a></li>
+        <li><a href="tentang.html">Tentang</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Lumpia Khas Indonesia</h2>
+    
+    <div class="lumpia-gallery">
+      <!-- Lumpia 1 -->
+      <div class="lumpia-item">
+        <img src="lumpia1.jpg" alt="Lumpia 1">
+        <p><strong>Lumpia Semarang</strong> adalah makanan khas Indonesia yang sangat terkenal.  
+        Memiliki isian seperti rebung dan daging ayam,  
+        lumpia ini digoreng hingga renyah di luar dan lembut di dalam.  
+        Biasanya disajikan dengan saus manis khas Semarang yang menggugah selera.  
+        Ini adalah camilan yang sempurna untuk setiap kesempatan.</p>
+      </div>
+      
+      <!-- Lumpia 2 -->
+      <div class="lumpia-item">
+        <img src="lumpia2.jpg" alt="Lumpia 2">
+        <p><strong>Lumpia Mini</strong> sering disajikan sebagai camilan ringan di acara-acara keluarga.  
+        Dengan ukuran kecil dan isian yang lezat,  
+        lumpia ini cocok untuk disantap dalam sekali gigitan.  
+        Isian sayur dan daging memberikan rasa yang kaya.  
+        Keistimewaan lumpia mini adalah teksturnya yang sangat renyah dan gurih.</p>
+      </div>
+
+      <!-- Lumpia 3 -->
+      <div class="lumpia-item">
+        <img src="lumpia3.jpg" alt="Lumpia 3">
+        <p><strong>Lumpia Goreng Udang</strong> adalah variasi lumpia dengan udang segar sebagai isiannya.  
+        Gurih dan kaya rasa, lumpia ini cocok untuk para pecinta seafood.  
+        Saus sambal manis atau acar membuatnya semakin nikmat.  
+        Lumpia goreng udang ini tidak hanya lezat, tetapi juga mengandung banyak gizi.  
+        Satu gigitan dan Anda akan ketagihan!</p>
+      </div>
+
+      <!-- Lumpia 4 -->
+      <div class="lumpia-item">
+        <img src="lumpia4.jpg" alt="Lumpia 4">
+        <p><strong>Lumpia Sayur</strong> cocok untuk mereka yang menginginkan pilihan yang lebih sehat.  
+        Dilengkapi dengan isian sayur seperti wortel, kol, dan rebung,  
+        lumpia ini sangat kaya akan vitamin dan serat.  
+        Meskipun tanpa daging, rasanya tetap menggugah selera dan lezat.  
+        Sangat cocok untuk camilan sore yang menyegarkan.</p>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Nama Saya. Semua hak dilindungi.</p>
+  </footer>
+</body>
+</html>
